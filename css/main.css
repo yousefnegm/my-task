@@ -1,0 +1,137 @@
+*
+{
+    text-decoration: none;
+
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/blog-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box
+{
+    background-color: white;
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    box-shadow: 0 9px 0 rgb(88, 86, 77) , 0 9px 25px rgba(0, 0, 0, .7);
+}
+h1
+{
+    color: blue;
+    margin-top: 10%;
+}
+h2
+{
+    color: white;
+    margin: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+h3
+{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: rgb(88, 86, 77);
+}
+input
+{
+   border: 0%;
+   background: none;
+   margin: 15px auto;
+   text-align: center;
+   padding: 14px 10px;
+   width: 80%;
+   color: black;
+   border-radius: 24px;
+}
+a
+{
+    color: blue;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="button"]
+{
+    background: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nad
+{
+    background:white;
+    width: 40%;
+    height: 520px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.n
+{
+    position: relative;
+}
+.n i {
+    font-size: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 230px;
+}
+.na
+{
+    position: relative;
+        box-sizing: border-box;
+     
+}
+.na i {
+    font-size: 20px;
+    position: absolute;
+    bottom: 30px;
+    right: 230px;
+}
+.ra  a i 
+{
+    margin: 20px;
+    position: absolute;
+    right: 50px;
+    font-size: 40px;
+    color: black;
+}
+.dd-content {
+    background-color: rgba(71, 55, 165, 0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 20%;
+    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+    height: 0px;
+    transition: height 1s;
+    overflow: hidden;
+    text-align: center;
+ }
+ .ra:hover  .dd-content {
+	height: 100%;
+}
+ .dd-content  a {
+    display: block;
+    height: 60px;
+    font-size: 20px;
+ }
+ .dd-content ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 175%;
+ }
+ .dd-content ul  li  a {
+    text-decoration: none;
+    color: white;
+ }
